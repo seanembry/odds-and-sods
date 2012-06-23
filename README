@@ -1,0 +1,7 @@
+These are odds and ends scripts, and most frequently what you will see here are not finished products but
+stuff to build on.
+
+FILE			Description
+apistarter.sh		A starter script for API calls. Checks if the previously obtained token is expired, if so, get a
+			new one, if no token, get one, and if you have a freash token, put the various things in your
+			environment (but you have to run it as . ./apistarter.sh to do that.)
