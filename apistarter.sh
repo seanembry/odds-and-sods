@@ -17,7 +17,7 @@ touch -d "$tokdate" token.expire
 
 if [  -s .myuser -a -r .myuser ]
 	then
-		api=`cat .myuser`
+		user=`cat .myuser`
 	else
 		echo -e "Please provide username \c"
 		read user
